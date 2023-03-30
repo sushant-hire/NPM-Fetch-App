@@ -1,0 +1,114 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchContainer {
+  margin-top: 5rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 1.1rem;
+  font-family: "Ubuntu", sans-serif;
+  border: 2px solid gray;
+  outline-color: gray;
+}
+
+.ResultContainer {
+  max-height: 5.5rem;
+  overflow-y: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+}
+
+.ResultContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ResultContainer::-webkit-scrollbar-track {
+  background: rgb(139, 156, 174);
+  border-radius: 10px;
+}
+
+.ResultContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(73, 88, 101);
+  border-radius: 10px;
+}
+
+.ResultMessage {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.RadioButton {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  accent-color: gray;
+}
+
+.MapContainer {
+  display: flex;
+  align-items: center;
+}
+
+.TextAreaContainer {
+  position: absolute;
+  bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.TextArea {
+  width: 47.25rem;
+  height: 10rem;
+  border: 2px solid gray;
+  outline-color: gray;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.WhyFavoriteMessage {
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin-block-end: 0em;
+}
+
+.SubmitButton {
+  padding: 0.8rem;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  width: 10rem;
+  color: white;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  margin-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.SubmitButton:hover {
+  background-color: rgb(109, 51, 167);
+}
+
+.SubmitButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}

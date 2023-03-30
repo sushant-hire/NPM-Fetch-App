@@ -1,0 +1,28 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.BoxContainer {
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.ButtonContainer {
+  padding: 1rem;
+  width: 50%;
+  cursor: pointer;
+}
